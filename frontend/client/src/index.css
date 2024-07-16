@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.dish-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  text-align: center;
+}
+
+.dish-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.dish-item h3 {
+  margin: 12px 0;
+}
+
+.dish-item button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
